@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'descripcion_lugar.dart';
 import 'reviews_info.dart';
+import 'gradient.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         ),*/
         body: Column(
           children: [
-            Descripcion_lugar(),
+
             reviews_info(),
           ],
         )
