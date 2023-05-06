@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'gradient.dart';
+import 'menu.dart';
 
-void main() {
-  runApp(MyApp());
-}
+
 
 var altura = 100;
 
 
 
-class MyApp extends StatelessWidget {
+class muestra_lista_stack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -145,6 +144,7 @@ class MyApp extends StatelessWidget {
                   ),],
               ),
             ),
+            muestra_menu(),
           ],
         ),
       ),
