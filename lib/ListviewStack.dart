@@ -144,7 +144,11 @@ class muestra_lista_stack extends StatelessWidget {
                   ),],
               ),
             ),
-            muestra_menu(),
+            Container(
+              margin: EdgeInsets.only(top:200), //
+              child: muestra_menu(),
+            )
+
           ],
         ),
       ),

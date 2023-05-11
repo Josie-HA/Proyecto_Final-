@@ -8,7 +8,7 @@ class profile_info extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String pathImage = "assets/img/krlos.jpg";
+    String pathImage = "assets/img/fotos_listview/Ohm.jpg";
 
     final foto = Container(
       height: 90,
@@ -33,7 +33,7 @@ class profile_info extends StatelessWidget {
 
     final nombre_usuario = Container(
       child: const Text(
-        "Pathum Zoo",
+        "Ohm Pawat",
           textAlign: TextAlign.left,
           style: TextStyle(
             fontFamily: "Righteotus",
@@ -45,7 +45,7 @@ class profile_info extends StatelessWidget {
 
     final correo_electronico = Container(
       child: const Text(
-        "pathumzoo@gmail.com",
+        "patsocool@gmail.com",
           textAlign: TextAlign.left,
           style: TextStyle(
             fontFamily: "Lato",

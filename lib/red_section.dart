@@ -33,9 +33,9 @@ class muestra_red extends StatelessWidget {
 
     final infoRegreso = Stack(
       children: [
-
         GradientBack(2000),
         cartelera(),
+
         icono_fav,
         SeccionMenu,
       ],
