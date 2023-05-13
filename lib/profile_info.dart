@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'gradiente_fondo.dart';
+//import 'gradient.dart';
 import 'menu.dart';
 import 'paisaje_card.dart';
 
@@ -37,8 +38,8 @@ class profile_info extends StatelessWidget {
           textAlign: TextAlign.left,
           style: TextStyle(
             fontFamily: "Righteotus",
-            fontSize: 20,
-            color: Colors.white,
+            fontSize: 25,
+            color: Color (0xFF860275),
           )
       ),
     );
@@ -49,8 +50,8 @@ class profile_info extends StatelessWidget {
           textAlign: TextAlign.left,
           style: TextStyle(
             fontFamily: "Lato",
-            fontSize: 14,
-            color: Colors.white,
+            fontSize: 20,
+            color: Color (0xFF860275),
           )
       ),
     );
@@ -98,11 +99,11 @@ class profile_info extends StatelessWidget {
       ),
       child: ListView(
         children: [
-          PaisajeCard("assets/img/beach.jpeg", "MonteAlban", "Hiking, Water fall hunting, Natural bath, Scenary & Photography", "Steps  123,123,123" ),
-          PaisajeCard("assets/img/river.jpeg", "Mitla", "Hiking, Water fall hunting, Natural bath, Scenary & Photography", "Steps  23 456"),
-          PaisajeCard("assets/img/beach_palm.jpeg", "Monterrey", "Hiking, Water fall hunting, Natural bath, Scenary & Photography", "Steps  567 890"),
-          PaisajeCard("assets/img/mountain.jpeg", "Oaxaca", "Hiking, Water fall hunting, Natural bath, Scenary & Photography", "Steps  987 654"),
-          PaisajeCard("assets/img/mountain_stars.jpeg", "CDMX", "Hiking, Water fall hunting, Natural bath, Scenary & Photography", "Steps  654 321 321"),
+          PaisajeCard("assets/img/zero2.jpg", "Pran Parakul", "Nice sand and music, perfect for relaxing gorgeous smile", "10/10" ),
+          PaisajeCard("assets/img/zero1.jpg", "Under the Rock", "Perfecto para un picnic, un lugar muy privado", "9.5/10 "),
+          PaisajeCard("assets/img/zero4.png", "Phi's House", "Buena comida y compañía, perfecto para una escapada", "9/10"),
+          PaisajeCard("assets/img/zero6.png", "Architecture's faculty", "Uno de los edificios más modernos dentro de la Universidad de Bangkok, ", "8/10"),
+          PaisajeCard("assets/img/polaroid.jpg", "Viceverse Lake ", "Lugar perfecto para un picnic, hermosas puestas de sol y clima agradable", "8.5/10"),
         ],
       ),
     );

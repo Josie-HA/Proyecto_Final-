@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'gradiente_fondo.dart';
+//import 'gradiente_fondo.dart';
+import 'gradient.dart';
 import 'lista_lugares_arriba.dart';
 
 class Encabezado extends StatelessWidget {
@@ -11,7 +12,7 @@ class Encabezado extends StatelessWidget {
     // TODO: implement build
     return Stack(
       children: [
-        GradientBack("Popular",250),
+        GradientBack(250),
         lista_lugares()
       ],
     );

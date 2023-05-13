@@ -46,7 +46,7 @@ class PaisajeCard extends StatelessWidget {
     );
 
     final activities = Container(
-      width: 150,
+      width: 200,
       margin: const EdgeInsets.only(
         top: 5,
       ),
@@ -55,7 +55,7 @@ class PaisajeCard extends StatelessWidget {
           textAlign: TextAlign.left,
           style: const TextStyle(
             fontFamily: "Lato",
-            fontSize: 9,
+            fontSize: 12,
             color: Colors.black45,
           )
       ),
@@ -72,13 +72,16 @@ class PaisajeCard extends StatelessWidget {
           style: const TextStyle(
             fontFamily: "Lato",
             fontSize: 15,
-            color: Color(0xFFF79526),
+            color: Color(0xFF860275),
             fontWeight: FontWeight.w900,
           )
       ),
     );
 
     final info_text=Container(
+      padding: const EdgeInsets.only(
+        bottom: 20,
+      ),
       margin: const EdgeInsets.only(
         left: 20,
       ),
@@ -122,7 +125,7 @@ class PaisajeCard extends StatelessWidget {
           left: 210,
         ),
         decoration: const BoxDecoration(
-          color: Color(0xFF18DB59),
+          color: Color(0xFF860275),
           shape: BoxShape.circle,// redondea los bordes del margen
         ),
         child: const Icon(

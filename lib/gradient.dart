@@ -17,8 +17,8 @@ class GradientBack extends StatelessWidget {
           gradient: LinearGradient(
               colors: [
                 Color(0xFFCBA4FA),
-                Color(0xFFFAB755),
-                Color(0xFFCBA4FA)
+                Color(0xFFF5B6E7),
+                Color(0xFFF8D5AD)
               ],
               begin: FractionalOffset(0.2, 0.0),
               end: FractionalOffset(1.0, 0.6),

@@ -3,6 +3,7 @@ import 'main_section.dart';
 import "profile_section.dart";
 import "red_section.dart";
 import "ListviewStack.dart";
+import 'Extra.dart';
 
 
 class muestra_menu extends StatelessWidget {
@@ -15,11 +16,11 @@ class muestra_menu extends StatelessWidget {
       ),
       child:  Row(
         children: const [
-          Expanded(child: IconoPequeno(icono: Icons.bookmark_add_outlined, size: 35.0, action: "favoritos")),
-          Expanded(child: IconoPequeno(icono: Icons.badge_outlined, size: 35.0, action: "perfil_josie")),
-          Expanded(child: IconoPequeno(icono: Icons.add, size: 55.0, action: "mas")),
-          Expanded(child: IconoPequeno(icono: Icons.email_outlined, size: 35.0, action: "email")),
-          Expanded(child: IconoPequeno(icono: Icons.person, size: 35.0, action: "profile")),
+          Expanded(child: IconoPequeno(icono: Icons.favorite_outline_rounded, size: 35.0, action: "favoritos")),
+          Expanded(child: IconoPequeno(icono: Icons.person_pin, size: 35.0, action: "perfil_josie")),
+          Expanded(child: IconoPequeno(icono: Icons.menu_book_rounded, size: 55.0, action: "mas")),
+          Expanded(child: IconoPequeno(icono: Icons.all_inbox_outlined, size: 35.0, action: "email")),
+          Expanded(child: IconoPequeno(icono: Icons.photo_camera_front_outlined, size: 35.0, action: "profile")),
 
 
         ],
@@ -55,6 +56,9 @@ class IconoPequeno extends StatelessWidget {
     else if (action == "perfil_josie") {
       accion_url = MaterialPageRoute(builder: (context) => muestra_lista_stack());
     }
+   // else if (action == "email") {
+   //   accion_url = MaterialPageRoute(builder: (context) => extra());
+    //}
     else {
       accion_url = MaterialPageRoute(builder: (context) => muestra_main());
     }
@@ -77,7 +81,7 @@ class IconoPequeno extends StatelessWidget {
         child: Icon(
           icono,
           size: (size-13),
-          color: const Color(0xFF4369D3),
+          color: const Color(0xFF860275),
         )
     )
     );

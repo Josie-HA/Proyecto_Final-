@@ -4,7 +4,7 @@ class Descripcion_lugar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
-    String texto ="Lorem ipsum dolor sit amet. Eum tempore culpa aut unde iure aut veritatis quis a illum impedit ut omnis voluptas! Ut saepe voluptatem vel molestias nisi ut rerum odio ut veniam porro At blanditiis molestiae! Qui quos iure sit consectetur doloribus et iure corrupti qui incidunt tempore. Aut facere nesciunt sit cupiditate vero et molestiae dolorum. Aut excepturi autem aut quidem necessitatibus in dolor vero At minus officia sed perferendis minima ea fugit optio.";
+    String texto ="Un lugar hermoso cerca de Bangkok perfecto para vacacionar y ser libre mientras disfrutas de la belleza del mar. Esta villa trabaja constantemente con el objetivo de mantenerse Zero Waste, un espacio pacífico que cuida al planeta, enseñando a todos un estilo de vida sustantable y amigable con el medio ambiente";
     var valortop=350.0;
     //final margen_top = 350;
 
@@ -39,7 +39,7 @@ class Descripcion_lugar extends StatelessWidget {
             right:20.0
           ),
           child: Text(
-            "Duwilli Ella",
+            "Zero Village",
             style: TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.bold

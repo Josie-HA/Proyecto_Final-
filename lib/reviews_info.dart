@@ -39,8 +39,9 @@ class reviews_info extends StatelessWidget {
           nombre,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontFamily: "Kaushan",
-          fontSize: 17,
+          fontFamily: "Lato",
+          fontSize: 15,
+          fontWeight: FontWeight.bold,
         )
       )
     );
@@ -91,8 +92,8 @@ class reviews_info extends StatelessWidget {
       child: Text(
         comentarios,
           style: TextStyle(
-            fontFamily: "Lato",
-            fontSize: 10,
+            fontFamily: "Mynerve",
+            fontSize: 14,
           )
       ),
     );

@@ -23,24 +23,24 @@ final foto = Container(
 
 final nombre_usuario = Container(
   child: Text(
-      "Pathum Zoo",
+      "Ohm Pawat",
       textAlign: TextAlign.left,
       style: TextStyle(
         fontFamily: "Righteotus",
         fontSize: 30,
-        color: Colors.white,
+        color: Colors.purple},
       )
   ),
 );
 
 final correo_electronico = Container(
   child: Text(
-      "pathumzoo@gmail.com",
+      "patsocool@gmail.com",
       textAlign: TextAlign.left,
       style: TextStyle(
         fontFamily: "Lato",
         fontSize: 14,
-        color: Colors.white,
+        color: Colors.purple,
       )
   ),
 );
